@@ -78,3 +78,149 @@ body {
 
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
 } */
+
+.appbar {
+  display: flex;
+  background-color: #f7d736;
+  height: 70px;
+  box-shadow: 0 14px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+}
+
+.logo {
+  width: 75px;
+  height: 50px;
+  padding: 10px 10px 10px 10px;
+
+}
+
+.subtitle {
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 27px;
+  margin-left: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.form-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 14px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border: solid white;
+  border-radius: 0.2rem;
+  width: 480px;
+
+}
+
+.form-card-title {
+  border: none;
+  width: 98%;
+  font-size: large;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.autoresize {
+  border: none;
+  width: 98%;
+  margin-top: 10px;
+  margin-left: 5px;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.btn {
+  width: 98%;
+  margin: 5px 5px 5px 5px;
+  border: none;
+  background-color: #f7d736;
+  border-radius: 0.2rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  height: 30px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: none;
+  width: 210px;
+  margin-top: 20px;
+  border-radius: 0.3rem;
+  box-shadow: 0 14px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.card-title {
+  font-family: 'Permanent Marker', cursive;
+  font-size: large;
+  padding: 10px;
+}
+
+.card-content {
+  font-family: 'Permanent Marker', cursive;
+  color: rgb(73, 73, 73);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin-top: 2px;
+  height: 60%;
+}
+
+.card-color-1 {
+  background-color: #ead3a7;
+}
+
+.card-color-2 {
+  background-color: #9de0f5;
+}
+
+.card-color-3 {
+  background-color: #ef89ba;
+}
+
+.card-color-4 {
+  background-color: #fae890;
+}
+
+.card-color-5 {
+  background-color: #abe9c1;
+}
+
+.card-rotation-1 {
+  transform: rotate(3deg);
+}
+
+.card-rotation-2 {
+  transform: rotate(2deg);
+}
+
+.card-rotation-3 {
+  transform: rotate(-2deg);
+}
+
+.card-rotation-4 {
+  transform: rotate(-3deg);
+}
+
+.card-rotation-5 {
+  transform: rotate(1deg);
+}
